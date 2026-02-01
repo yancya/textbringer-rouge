@@ -64,7 +64,7 @@ Textbringer::Face.define :comment, foreground: "gray", italic: true
 Enable debug logging to troubleshoot issues:
 
 ```bash
-TEXTBRINGER_ROUGE_DEBUG=1 textbringer your_file.rb
+TEXTBRINGER_ROUGE_DEBUG=1 txtb your_file.rb
 ```
 
 Debug logs will be written to `/tmp/rouge_adapter_debug.log`.

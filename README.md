@@ -1,5 +1,11 @@
 # Textbringer Rouge
 
+**This project is archived. Please migrate to [textbringer-tree-sitter](https://github.com/yancya/textbringer-tree-sitter).**
+
+```bash
+gem install textbringer-tree-sitter
+```
+
 Rouge syntax highlighting integration for Textbringer.
 
 This plugin integrates the [Rouge](https://github.com/rouge-ruby/rouge) syntax highlighter into [Textbringer](https://github.com/shugo/textbringer), automatically providing syntax highlighting for 200+ programming languages without needing to write regex patterns for each language.

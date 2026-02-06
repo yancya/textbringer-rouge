@@ -17,6 +17,11 @@ Gem::Specification.new do |spec|
   spec.metadata["allowed_push_host"] = "https://rubygems.org"
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/yancya/textbringer-rouge"
+  spec.post_install_message = <<~MSG
+    textbringer-rouge is archived. Please migrate to textbringer-tree-sitter:
+    https://github.com/yancya/textbringer-tree-sitter
+    gem install textbringer-tree-sitter
+  MSG
 
   gemspec = File.basename(__FILE__)
   spec.files = IO.popen(%w[git ls-files -z], chdir: __dir__, err: IO::NULL) do |ls|
